@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .myinput{
+        @apply p-1 sm:p-2 border-b-2 w-full border-accent  outline-none font-semibold text-slate-600 ;
+    }
+    .cartblock{
+        @apply card-body bg-base-200 rounded-xl shadow-xl flex flex-col sm:flex-row
+    }
+}
