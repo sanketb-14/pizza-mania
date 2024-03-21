@@ -3,6 +3,7 @@ import Logo from '../assets/logo.png';
 import SearchOrder from '../features/order/SearchOrder';
 import UserName from '../features/user/UserName';
 import CartOverview from '../features/cart/CartOverview';
+import ThemeSwitch from './ThemeSwitch';
 
 function Header() {
   return (
@@ -25,6 +26,7 @@ function Header() {
 
       <SearchOrder />
       <CartOverview />
+      <ThemeSwitch/>
       <UserName />
     </header>
   );

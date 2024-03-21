@@ -5,7 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   daisyui: {
-    themes: ["winter","business"],
+    themes: ["winter","night"],
   },
   theme: {
     fontFamily:{
